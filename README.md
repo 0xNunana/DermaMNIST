@@ -103,3 +103,21 @@ Next.js applications deploy natively to [Vercel](https://vercel.com/) with zero 
 5. Melanoma *(High Risk)*
 6. Melanocytic Nevi
 7. Vascular Lesions
+
+---
+
+## 🏛️ Research & Attribution
+
+The underlying DermaMNIST model and experimental work were developed as part of a collaborative academic project at the **OTH Regensburg** as part of the **International Summer School 2026: Trustworthy AI – Machine Learning Meets Blockchain** programme, under the supervision of **Tobias Rueckert**.
+
+### Model & Research Contributors
+- Sean Chye
+- Tan Xian Guang
+- Paul Yao Kudaya
+- Tan Zheng Liang
+
+### Deployment & Engineering
+- Paul Yao Kudaya
+
+> This deployment extends the original collaborative research work with a production-oriented web interface and model inference service, providing an interactive demonstration of the trained computer vision model.
+

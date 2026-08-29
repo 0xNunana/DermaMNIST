@@ -165,6 +165,28 @@ export default function Home() {
           )}
         </div>
       </div>
+
+      {/* Footer / Attribution */}
+      <footer className="max-w-4xl mx-auto mt-24 text-center space-y-4 pb-8 relative z-10">
+        <div className="h-px w-full bg-gradient-to-r from-transparent via-white/10 to-transparent mb-8" />
+        <h4 className="text-xs font-semibold uppercase tracking-[0.2em] text-slate-400">Research & Attribution</h4>
+        <p className="text-xs text-slate-500 font-light leading-relaxed max-w-2xl mx-auto">
+          The underlying DermaMNIST model and experimental work were developed as part of a collaborative academic project at the <strong className="font-semibold text-slate-300">OTH Regensburg</strong> as part of the <strong className="font-semibold text-slate-300">International Summer School 2026: Trustworthy AI &ndash; Machine Learning Meets Blockchain</strong> programme, under the supervision of <strong className="font-semibold text-slate-300">Tobias Rueckert</strong>.
+        </p>
+        <div className="flex flex-col sm:flex-row items-center justify-center gap-4 sm:gap-12 pt-4">
+          <div>
+            <span className="block text-[10px] uppercase tracking-widest text-slate-600 mb-1">Model & Research</span>
+            <span className="text-xs text-slate-400">Sean Chye &middot; Tan Xian Guang &middot; Paul Yao Kudaya &middot; Tan Zheng Liang</span>
+          </div>
+          <div>
+            <span className="block text-[10px] uppercase tracking-widest text-slate-600 mb-1">Deployment & Engineering</span>
+            <span className="text-xs text-slate-400">Paul Yao Kudaya</span>
+          </div>
+        </div>
+        <p className="text-[10px] text-slate-600 mt-6 max-w-xl mx-auto leading-relaxed">
+          This deployment extends the original collaborative research work with a production-oriented web interface and model inference service, providing an interactive demonstration of the trained computer vision model.
+        </p>
+      </footer>
     </main>
   );
 }
